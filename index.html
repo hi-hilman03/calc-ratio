@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Equity Ratio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo_calc.png">
+</head>
+<body>
+		<div class="running-text">
+			 <span>PT. Rifan Financindo Berjangka Jakarta AXA Tower Lt. 30</span>
+		</div>
+		<h2>Kalkulator Equity Ratio</h2>
+		<h3>v2.0 2025</h3>
+		<div id="jam"></div>
+		<form id="equity-form">
+			<label for="equity">Equity:</label>
+			<input type="number" id="equity" step="0.01" required>
+			<label for="margin">Margin Required:</label>
+			<input type="number" id="margin" step="0.01" required>
+			<button type="submit">Hitung</button>
+		</form>
+		<div id="result"></div>
+		<div id="keterangan">
+			 <h3>Keterangan</h3>
+			 <p>Senin-Kamis jika ratio <b style="color:red">di bawah 14.80%</b>, merupakan hari terakhir menginap dan harus top up.</p>
+			 <p>Jumat jika ratio <b style="color:red">di bawah 22.20%</b>, merupakan hari terakhir menginap dan harus top up untuk 3 hari.</p>
+		</div>
+	
+	<div class="footer">
+		&copy; 2025 by hi_hilman03
+	</div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
